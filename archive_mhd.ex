@@ -5,16 +5,16 @@
 ################################################################################
 
 ### creating the directory ###
-mkdir ~/DATA_shockJ/
-mkdir ~/DATA_shockJ/op=3.0E+00/
-mkdir ~/DATA_shockJ/op=3.0E+00/nH=1.0E+05cm-3/
-mkdir ~/DATA_shockJ/op=3.0E+00/nH=1.0E+05cm-3/Vs=2.5E+01km.s-1/
+mkdir ~/DATA_shockS/
+mkdir ~/DATA_shockS/op=3.0E+00/
+mkdir ~/DATA_shockS/op=3.0E+00/nH=1.0E+05cm-3/
+mkdir ~/DATA_shockS/op=3.0E+00/nH=1.0E+05cm-3/Vs=2.5E+01km.s-1/
 
 ### gzip and mv output files to this directory ###
 gzip output/*.out 
-mv output/*.out.gz ~/DATA_shockJ/op=3.0E+00/nH=1.0E+05cm-3/Vs=2.5E+01km.s-1/
+mv output/*.out.gz ~/DATA_shockS/op=3.0E+00/nH=1.0E+05cm-3/Vs=2.5E+01km.s-1/
 
 ### check the content of the directory ###
-echo archive directory: ~/DATA_shockJ/op=3.0E+00/nH=1.0E+05cm-3/Vs=2.5E+01km.s-1/
+echo archive directory: ~/DATA_shockS/op=3.0E+00/nH=1.0E+05cm-3/Vs=2.5E+01km.s-1/
 echo ---------------------------------
-ls ~/DATA_shockJ/op=3.0E+00/nH=1.0E+05cm-3/Vs=2.5E+01km.s-1/
+ls ~/DATA_shockS/op=3.0E+00/nH=1.0E+05cm-3/Vs=2.5E+01km.s-1/

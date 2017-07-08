@@ -1,5 +1,5 @@
 !---- shock parameters ---------------------------------------------------------
-J                       ! shock type : 'C' or 'J', or Steady state : 'S'
+S                       ! shock type : 'C' or 'J', or Steady state : 'S'
 1                       ! Nfluids : 1, 2 ou 3
 0.10                    ! Bbeta -> Bfield = Bbeta * sqrt(nH)
 25.0                    ! Vs -> shock speed (km/s)
